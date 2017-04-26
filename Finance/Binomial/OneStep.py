@@ -1,3 +1,5 @@
+#Step 1
+
 from fractions import Fraction
 
 class Lattice:

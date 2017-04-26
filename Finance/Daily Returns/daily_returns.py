@@ -6,7 +6,9 @@ import matplotlib.pyplot as plt
 import scipy.optimize as spo
 from scipy import stats
 
+from statsmodels import regression
 
+import math
 
 def load_data(csv):
 	
@@ -63,9 +65,9 @@ if __name__ ==  "__main__":
 	ax.set_xlabel("Date")
 	ax.set_ylabel("Price")
 
-	#plt.show()
+	plt.show()
 
-
+	SPY = df['SPY']
 
 
 
@@ -74,18 +76,27 @@ if __name__ ==  "__main__":
 	rm_SPY = pd.rolling_mean(df['SPY'],window=20)
 
 	print rm_SPY
-
-	rm_SPY.plot(label ='Rolling mean',ax=ax)
+	plt.plot(SPY)
+	plt.plot(rm_SPY)
+	plt.title("Rolling mean of SPY")
+	plt.ylabel('Price')
 	plt.show()
+
 
 	norm_df = normalize_data(df)
 	norm_df.plot()
+	plt.title("Normalized Stock Price")
 	plt.show()
 
 	daily_returns = compute_daily_returns(df)
 
-	daily_returns.plot()
+	daily_returns.plot(title="Daily Returns",ax=ax)
 	plt.show()
+
+	percent_daily_returns = df.pct_change()[1:]
+	percent_daily_returns.plot(title="Daily Returns % Calculated by Pandas")
+	plt.show()
+
 
 
 	daily_returns['TSLA'].hist(bins=20,label='TSLA')

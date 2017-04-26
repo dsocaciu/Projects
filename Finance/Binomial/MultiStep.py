@@ -1,3 +1,5 @@
+#Step 2
+
 from fractions import Fraction
 	
 
