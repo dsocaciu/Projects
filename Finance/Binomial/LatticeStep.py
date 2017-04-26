@@ -98,7 +98,6 @@ d = Fraction(1,u)
 
 CalculateLevels(3,root)
 
-#print(str((100*d)*u))
 
 print("Printing Stock Prices for 3 levels")
 
