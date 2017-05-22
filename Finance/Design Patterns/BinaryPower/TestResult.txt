@@ -1,0 +1,161 @@
+enter stats for Digital Options 
+Expiry is 3 
+Strike is 3 
+Spot is 3 
+Vol is 3 
+r is 3 
+Number of paths is 3 
+enter stats for Digital Options 
+Expiry is 2 
+Strike is 2 
+Spot is 2 
+Vol is 2 
+r is 2 
+Number of paths is 2 
+enter stats for Digital Options 
+Expiry is 4 
+Strike is 4 
+Spot is 4 
+Vol is 4 
+r is 4 
+Number of paths is 4 
+enter stats for Digital Options 
+Expiry is 8 
+Strike is 4 
+Spot is 5 
+Vol is 7 
+r is 5 
+Number of paths is 5 
+Printing Results:
+The call price is 4.24835e-018 
+The put price is 4.24835e-018 
+enter stats for Digital Options 
+Expiry is 2 
+Strike is 10 
+Spot is 2 
+Vol is 5 
+r is 3 
+Number of paths is 3 
+Printing Results:
+The call price is 0.00247875 
+The put price is 0.00247875 
+enter stats for Digital Options 
+Strike is 3 
+Spot is 4 
+Printing Results:
+The call price is -1.#IND 
+The put price is -1.#IND 
+enter stats for Digital Options 
+Expiry is 5 
+Strike is 8 
+Spot is 2 
+Vol is 6 
+r is 3 
+Number of paths is 3 
+Printing Results:
+The call price is 3.05902e-007 
+The put price is 3.05902e-007 
+enter stats for Digital Options 
+Expiry is 2 
+Strike is 4 
+Spot is 8 
+Vol is 2 
+r is 2 
+Number of paths is 2 
+Printing Results:
+The call price is 0.0183156 
+The put price is 0.00915782 
+enter stats for Digital Options 
+Expiry is 3 
+Strike is 4 
+Spot is 8 
+Vol is 1 
+r is 1 
+Number of paths is 1 
+Printing Results:
+The call price is 0.0497871 
+The put price is 0 
+enter stats for Digital Options 
+Expiry is 3 
+Strike is 8 
+Spot is 4 
+Vol is 1 
+r is 1 
+Number of paths is 1 
+Printing Results:
+The call price is 0.0497871 
+The put price is 0.0124468 
+enter stats for Digital Options 
+Expiry is 2 
+Strike is 4 
+Spot is 8 
+Vol is 3 
+r is 2 
+Number of paths is 2 
+Printing Results:
+The call price is 0.0183156 
+The put price is 0.0137367 
+enter stats for Digital Options 
+Expiry is 3 
+Strike is 4 
+Spot is 8 
+Vol is 3 
+r is 3 
+Number of paths is 3 
+Printing Results:
+The call price is 0.00012341 
+The put price is 9.25574e-005 
+enter stats for Digital Options 
+Expiry is 3 
+Strike is 8 
+Spot is 4 
+Vol is 1 
+r is 1 
+Number of paths is 1 
+Printing Results:
+The call price is 0.0497871 
+The put price is 0.0124468 
+
+ Printing results for Digital Options 
+Expiry is 3 
+Strike is 4 
+Spot is 8 
+Vol is 1 
+r is 1 
+Number of paths is 1 
+Printing Results:
+The call price is 0.0497871 
+The put price is 0 
+
+ Printing results for Digital Options 
+Expiry is 3 
+Strike is 54 
+Spot is 5 
+Vol is 43 
+r is 3 
+Number of paths is 3 
+Printing Results:
+The call price is 0 
+The put price is 0.00012341 
+
+ Printing inputs for Digital Options 
+Expiry is 4.000000 
+Strike is 10.000000 
+Spot is 30.000000 
+Vol is 4.000000 
+r is 2.000000 
+Number of paths is 2.000000 
+Printing Digital Options Results:
+The call price is 0.000000 
+The put price is 0.000335 
+
+ Printing inputs for Power Options 
+Expiry is 5.000000 
+Strike is 10.000000 
+Spot is 20.000000 
+Vol is 23.000000 
+r is 2.000000 
+Number of paths is 2.000000 
+Power is 4.000000 
+The power call price is 0.000000 
+The power put price is 0.000454 
