@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/categorymain"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".reviews.EditReviewActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beercategories"
+            android:textSize="20dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <!-- category  lists -->
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:prompt="@string/beer_prompt" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/category1"
+        android:layout_width="fill_parent"
+        android:layout_height="250dip"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <!-- category  descriptions -->
+
+        <ExpandableListView
+            android:id="@+id/expand1"
+            android:layout_width="fill_parent"
+            android:layout_height="220dip"
+            android:groupIndicator="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/category2"
+        android:layout_width="fill_parent"
+        android:layout_height="250dip"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <!-- category  descriptions -->
+
+        <ExpandableListView
+            android:id="@+id/expand2"
+            android:layout_width="fill_parent"
+            android:layout_height="220dip"
+            android:groupIndicator="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/category3"
+        android:layout_width="fill_parent"
+        android:layout_height="250dip"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <!-- category  descriptions -->
+
+        <ExpandableListView
+            android:id="@+id/expand3"
+            android:layout_width="fill_parent"
+            android:layout_height="220dip"
+            android:groupIndicator="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/category4"
+        android:layout_width="fill_parent"
+        android:layout_height="250dip"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <!-- category  descriptions -->
+
+        <ExpandableListView
+            android:id="@+id/expand4"
+            android:layout_width="fill_parent"
+            android:layout_height="220dip"
+            android:groupIndicator="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/category5"
+        android:layout_width="fill_parent"
+        android:layout_height="250dip"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <!-- category  descriptions -->
+
+        <ExpandableListView
+            android:id="@+id/expand5"
+            android:layout_width="fill_parent"
+            android:layout_height="220dip"
+            android:groupIndicator="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/category6"
+        android:layout_width="fill_parent"
+        android:layout_height="250dip"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <ExpandableListView
+            android:id="@+id/expand6"
+            android:layout_width="fill_parent"
+            android:layout_height="220dip"
+            android:groupIndicator="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/category7"
+        android:layout_width="fill_parent"
+        android:layout_height="250dip"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <ExpandableListView
+            android:id="@+id/expand7"
+            android:layout_width="fill_parent"
+            android:layout_height="220dip"
+            android:groupIndicator="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/category8"
+        android:layout_width="fill_parent"
+        android:layout_height="250dip"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <ExpandableListView
+            android:id="@+id/expand8"
+            android:layout_width="fill_parent"
+            android:layout_height="220dip"
+            android:groupIndicator="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/category9"
+        android:layout_width="fill_parent"
+        android:layout_height="250dip"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <ExpandableListView
+            android:id="@+id/expand9"
+            android:layout_width="fill_parent"
+            android:layout_height="220dip"
+            android:groupIndicator="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/category10"
+        android:layout_width="fill_parent"
+        android:layout_height="250dip"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <ExpandableListView
+            android:id="@+id/expand10"
+            android:layout_width="fill_parent"
+            android:layout_height="220dip"
+            android:groupIndicator="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/category11"
+        android:layout_width="fill_parent"
+        android:layout_height="250dip"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <ExpandableListView
+            android:id="@+id/expand11"
+            android:layout_width="fill_parent"
+            android:layout_height="220dip"
+            android:groupIndicator="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/category12"
+        android:layout_width="fill_parent"
+        android:layout_height="250dip"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <ExpandableListView
+            android:id="@+id/expand12"
+            android:layout_width="fill_parent"
+            android:layout_height="220dip"
+            android:groupIndicator="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/category13"
+        android:layout_width="fill_parent"
+        android:layout_height="250dip"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <ExpandableListView
+            android:id="@+id/expand13"
+            android:layout_width="fill_parent"
+            android:layout_height="220dip"
+            android:groupIndicator="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/category14"
+        android:layout_width="fill_parent"
+        android:layout_height="250dip"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <ExpandableListView
+            android:id="@+id/expand14"
+            android:layout_width="fill_parent"
+            android:layout_height="220dip"
+            android:groupIndicator="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/category15"
+        android:layout_width="fill_parent"
+        android:layout_height="250dip"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <ExpandableListView
+            android:id="@+id/expand15"
+            android:layout_width="fill_parent"
+            android:layout_height="220dip"
+            android:groupIndicator="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/category16"
+        android:layout_width="fill_parent"
+        android:layout_height="250dip"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <ExpandableListView
+            android:id="@+id/expand16"
+            android:layout_width="fill_parent"
+            android:layout_height="220dip"
+            android:groupIndicator="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/category17"
+        android:layout_width="fill_parent"
+        android:layout_height="250dip"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <ExpandableListView
+            android:id="@+id/expand17"
+            android:layout_width="fill_parent"
+            android:layout_height="220dip"
+            android:groupIndicator="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/category18"
+        android:layout_width="fill_parent"
+        android:layout_height="250dip"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <ExpandableListView
+            android:id="@+id/expand18"
+            android:layout_width="fill_parent"
+            android:layout_height="220dip"
+            android:groupIndicator="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/category19"
+        android:layout_width="fill_parent"
+        android:layout_height="250dip"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <ExpandableListView
+            android:id="@+id/expand19"
+            android:layout_width="fill_parent"
+            android:layout_height="220dip"
+            android:groupIndicator="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/category20"
+        android:layout_width="fill_parent"
+        android:layout_height="250dip"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <ExpandableListView
+            android:id="@+id/expand20"
+            android:layout_width="fill_parent"
+            android:layout_height="220dip"
+            android:groupIndicator="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/category21"
+        android:layout_width="fill_parent"
+        android:layout_height="250dip"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <ExpandableListView
+            android:id="@+id/expand21"
+            android:layout_width="fill_parent"
+            android:layout_height="220dip"
+            android:groupIndicator="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/category22"
+        android:layout_width="fill_parent"
+        android:layout_height="250dip"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <ExpandableListView
+            android:id="@+id/expand22"
+            android:layout_width="fill_parent"
+            android:layout_height="220dip"
+            android:groupIndicator="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/category23"
+        android:layout_width="fill_parent"
+        android:layout_height="250dip"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <ExpandableListView
+            android:id="@+id/expand23"
+            android:layout_width="fill_parent"
+            android:layout_height="220dip"
+            android:groupIndicator="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="0dip" >
+
+        <Button
+            android:id="@+id/main_menu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/main_return" />
+    </LinearLayout>
+
+</LinearLayout>

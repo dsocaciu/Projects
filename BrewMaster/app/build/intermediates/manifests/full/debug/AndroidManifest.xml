@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dmsbrews.brewmasterlite"
+    android:versionCode="3"
+    android:versionName="1.2" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="13" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.dmsbrews.brewmasterlite.BrewMasterActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.dmsbrews.brewmasterlite.tools.MainBrewToolsActivity" />
+        <activity android:name="com.dmsbrews.brewmasterlite.tools.ABVActivity" />
+        <activity android:name="com.dmsbrews.brewmasterlite.tools.StrikeActivity" />
+        <activity android:name="com.dmsbrews.brewmasterlite.tools.ChecklistActivity" />
+        <activity android:name="com.dmsbrews.brewmasterlite.logs.MainLogActivity" />
+        <activity android:name="com.dmsbrews.brewmasterlite.logs.AddLogActivity" />
+        <activity android:name="com.dmsbrews.brewmasterlite.logs.ViewLogActivity" />
+        <activity android:name="com.dmsbrews.brewmasterlite.logs.EditLogActivity" />
+        <activity android:name="com.dmsbrews.brewmasterlite.logs.DeleteLogActivity" />
+        <activity android:name="com.dmsbrews.brewmasterlite.categories.MainCategoryActivity" />
+        <activity android:name="com.dmsbrews.brewmasterlite.reviews.MainReviewActivity" />
+        <activity android:name="com.dmsbrews.brewmasterlite.reviews.AddReviewActivity" />
+        <activity android:name="com.dmsbrews.brewmasterlite.reviews.ViewReviewActivity" />
+        <activity android:name="com.dmsbrews.brewmasterlite.reviews.EditReviewActivity" />
+        <activity android:name="com.dmsbrews.brewmasterlite.reviews.DeleteReviewActivity" />
+        <activity android:name="com.dmsbrews.brewmasterlite.tools.TimerActivity" />
+        <activity
+            android:name="com.google.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+    </application>
+
+</manifest>

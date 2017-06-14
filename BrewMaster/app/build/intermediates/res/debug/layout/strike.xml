@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Strike Temperature Calculator"
+            android:textSize="20dip" />
+    </LinearLayout>
+
+<!--     <LinearLayout -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="50dp" -->
+<!--         android:orientation="horizontal" -->
+<!--         android:padding="10dip" > -->
+
+<!--         <TextView -->
+<!--             android:id="@+id/batch_text" -->
+<!--             android:layout_width="170dp" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:text="Batch Size(gal): " -->
+<!--             android:textSize="15dip" /> -->
+
+
+<!--         <EditText -->
+<!--             android:id="@+id/batch_field" -->
+<!--             android:layout_width="match_parent" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:numeric="decimal" -->
+<!--             android:textSize="10dip" /> -->
+<!--     </LinearLayout> -->
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <TextView
+            android:id="@+id/grain_text"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Grain Bill(lbs): "
+            android:textSize="15dip" />
+
+        <EditText
+            android:id="@+id/grain_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:numeric="decimal"
+            android:padding="10dip"
+            android:textSize="15dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <TextView
+            android:id="@+id/thick_text"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Mash Thickness(qt/lb): "
+            android:textSize="15dip" />
+
+
+        <EditText
+            android:id="@+id/thick_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numeric="decimal"
+            android:textSize="15dip" />
+    </LinearLayout>
+    
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    android:padding="10dip" >
+
+        <TextView
+            android:id="@+id/graintemp_text"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Grain Temperature: "
+            android:textSize="15dip" />
+
+
+        <EditText
+            android:id="@+id/graintemp_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numeric="integer"
+            android:textSize="15dip" />
+    </LinearLayout>
+    
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <TextView
+            android:id="@+id/target_text"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Target Mash Temp: "
+            android:textSize="15dip" />
+
+
+        <EditText
+            android:id="@+id/target_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numeric="integer"
+            android:textSize="15dip" />
+    </LinearLayout>
+    
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+    <TextView
+        android:id="@+id/resultLabel"
+        android:lines="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:paddingLeft="10dp"
+        android:textSize="15dip"  />
+	</LinearLayout>
+	
+    <LinearLayout
+        android:layout_width="fill_parent"
+		android:layout_height="wrap_content"       
+        android:orientation="vertical"
+        android:padding="10dip" >
+        <Button
+            android:id="@+id/strike_calc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Calculate" />
+
+        <Button
+            android:id="@+id/brew_calc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Back to Brew Tools" />
+    </LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/Users/dansocaciu/AndroidstudioProjects/BrewMaster/app/src/main/res/layout/strike.xml -->

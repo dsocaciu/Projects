@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete Previous Brew Session"
+            android:textSize="20dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <Spinner
+            android:id="@+id/previous_brew"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:prompt="@string/beer_prompt" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:height="230dip"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <TextView
+            android:id="@+id/brew_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <Button
+            android:id="@+id/delete_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Delete Selected Session" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <Button
+            android:id="@+id/main_menu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Return to Brew Logs" />
+    </LinearLayout>
+
+</LinearLayout>

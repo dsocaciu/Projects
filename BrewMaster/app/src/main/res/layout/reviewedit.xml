@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+          xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+
+    	<ScrollView
+    	    android:id="@+id/scrollView1"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="320dip" >
+<LinearLayout
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dip">
+	    <TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="20dip"
+	    android:text="Edit Beer Review" />
+    </LinearLayout>
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dip">
+	            <Spinner 
+        android:id="@+id/previous_brew"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/beer_prompt"
+    	/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <TextView
+            android:id="@+id/name_text"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="15dip" />
+
+
+        <EditText
+            android:id="@+id/name_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dip" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <TextView
+            android:id="@+id/appearance_text"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Appearance"
+            android:textSize="15dip" />
+
+
+        <EditText
+            android:id="@+id/appearance_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dip" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <TextView
+            android:id="@+id/smell_text"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Smell"
+            android:textSize="15dip" />
+
+        <EditText
+            android:id="@+id/smell_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dip" />
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <TextView
+            android:id="@+id/taste_text"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Taste"
+            android:textSize="15dip" />
+
+                <EditText
+            android:id="@+id/taste_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dip" />
+
+    	/> 
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <TextView
+            android:id="@+id/mouth_text"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Mouthfeel"
+            android:textSize="15dip" />
+
+                <EditText
+            android:id="@+id/mouth_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dip" />
+
+    	/> 
+    </LinearLayout>
+            <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <TextView
+            android:id="@+id/overall_text"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Overall"
+            android:textSize="15dip" />
+
+                <EditText
+            android:id="@+id/overall_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dip" />
+
+    	/> 
+    </LinearLayout>
+            <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dip" >
+    <TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="15dip"
+	    android:text="Overall Rating" />
+            <RatingBar
+                android:id="@+id/ratingBar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+	    
+	    </LinearLayout>
+	    </LinearLayout>
+	      	</ScrollView>
+        <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dip">
+	   	<Button
+	    android:id="@+id/add_review"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="bottom"
+	    android:text="Submit Review" />
+	</LinearLayout>
+	<LinearLayout 
+	android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dip">
+	    <Button
+	    android:id="@+id/main_menu"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="bottom"
+	    android:text="Return to Beer Reviews" />
+    </LinearLayout>
+  	</LinearLayout>
+
+
+

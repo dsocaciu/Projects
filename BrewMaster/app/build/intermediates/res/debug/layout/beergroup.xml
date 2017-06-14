@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="65dip"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dip"
+        android:padding="10dip"
+        android:textSize="17dip" />
+
+</LinearLayout><!-- From: file:/Users/dansocaciu/AndroidstudioProjects/BrewMaster/app/src/main/res/layout/beergroup.xml -->

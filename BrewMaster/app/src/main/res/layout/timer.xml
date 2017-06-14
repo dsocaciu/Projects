@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dip">
+	    <TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="20dip"
+	    android:text="Brew Timer" />
+
+    </LinearLayout>
+     <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dip">
+  		<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="20dip"
+	    android:text="Please enter time: " />
+  	</LinearLayout>
+
+     <LinearLayout
+         android:id="@+id/input_field"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:padding="10dip" >
+
+         <EditText
+             android:id="@+id/timer_status"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:numeric="integer"
+             android:padding="10dip"
+             android:text="60"
+             android:textSize="40dip" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="40dp"
+             android:text="Minutes"
+             android:textSize="15dip" />
+     </LinearLayout>
+	<!--  Timer Label goes here -->
+	<LinearLayout
+	     android:id="@+id/remaining_line"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:padding="10dip" >
+	<TextView
+	      android:id="@+id/brew_time"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="60:00"
+	      android:textSize="40dip"
+	      android:padding="10dip" />
+		<TextView
+	      android:id="@+id/remaining"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text=" remaining"
+	      android:textSize="15dip"
+	      android:padding="10dip" />
+		</LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dip" >
+	   	<Button
+	    android:id="@+id/brew_start"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="bottom"
+	    android:text="Start" />
+	</LinearLayout>
+    <LinearLayout
+    android:id="@+id/pause_line"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dip" >
+    <Button
+        android:id="@+id/brew_pause"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Pause" />
+    <Button
+        android:id="@+id/brew_resume"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Resume" />
+	</LinearLayout>
+	<LinearLayout 
+	android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dip">
+
+	    <Button
+	    android:id="@+id/brew_calc"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="bottom"
+	    android:text="Back to Brew Tools" />
+    </LinearLayout>
+  	</LinearLayout>
+
+

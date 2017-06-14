@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/brewmaster"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mainmenu"
+            android:textColor="#000000"
+            android:textSize="20dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <Button
+            android:id="@+id/brew_calc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="@string/brewtools" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <Button
+            android:id="@+id/brew_log"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="@string/brewlogs" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <Button
+            android:id="@+id/brew_category"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="@string/beercategories" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dip">
+
+        <Button
+            android:id="@+id/brew_review"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="@string/beerreviews" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="50dip">
+
+
+    </LinearLayout>
+
+</LinearLayout>
+<!--
+    Button
+      android:id="@+id/brew_time_down"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="-"
+      android:textSize="40dip" />
+    <TextView
+      android:id="@+id/brew_time"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="0:00"
+      android:textSize="40dip"
+      android:padding="10dip" />
+    <Button
+      android:id="@+id/brew_time_up"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="+"
+      android:textSize="40dip"
+-->
+
+<!-- From: file:/Users/dansocaciu/AndroidstudioProjects/BrewMaster/app/src/main/res/layout/brewmaster.xml -->

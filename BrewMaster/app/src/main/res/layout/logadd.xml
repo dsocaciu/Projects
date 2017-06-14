@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add a Brew"
+            android:textSize="20dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/logadd_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="280dip"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dip" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dip" >
+
+                    <TextView
+                        android:id="@+id/brewname_text"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/brew_name"
+                        android:textSize="15dip" />
+
+                    <EditText
+                        android:id="@+id/brewname_field"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dip" >
+
+                    <TextView
+                        android:id="@+id/brewdate_text"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/brew_date"
+                        android:textSize="15dip" />
+
+                    <EditText
+                        android:id="@+id/brewdate_field"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dip" >
+
+                    <TextView
+                        android:id="@+id/brewtype_text"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/brew_type"
+                        android:textSize="15dip" />
+
+                    <Spinner
+                        android:id="@+id/brewtype_field"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:prompt="@string/beer_prompt" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dip" >
+
+                    <TextView
+                        android:id="@+id/brewape_text"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/brew_ape"
+                        android:textSize="15dip" />
+
+                    <Spinner
+                        android:id="@+id/brewape_field"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:prompt="@string/beer_prompt" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dip" >
+
+                    <TextView
+                        android:id="@+id/og_text"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/abv_og"
+                        android:textSize="15dip" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="1."
+                        android:textSize="20dip" />
+
+                    <EditText
+                        android:id="@+id/og_field"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:numeric="integer"
+                        android:textSize="20dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dip" >
+
+                    <TextView
+                        android:id="@+id/fg_text"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/abv_fg"
+                        android:textSize="15dip" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="1."
+                        android:textSize="20dip" />
+
+                    <EditText
+                        android:id="@+id/fg_field"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.4"
+                        android:numeric="integer"
+                        android:padding="10dip"
+                        android:textSize="20dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <Button
+            android:id="@+id/add_log"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Add New Brew" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <Button
+            android:id="@+id/main_menu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Return to Brew Logs" />
+    </LinearLayout>
+
+</LinearLayout>
